@@ -11,6 +11,7 @@ body {
     background-color: var(--bg-color);
     color: var(--txt-color);
     text-align: center;
+    height: 100%;
 }
 nav {
     display: flex;
@@ -27,4 +28,13 @@ form > * {
 input, button {
     background-color:var(--input-color);
     color: darkblue;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+    height: 70%;
+    margin: 20px;
 }

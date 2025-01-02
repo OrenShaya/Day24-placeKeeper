@@ -32,7 +32,8 @@
         </div>
         <div class="age">       <!-- Age -->
             <label for="age" placeholder="18-99">Age:</label>
-            <input type="number" name="age">
+            <input type="range" min="18" max="121" name="age" oninput="this.nextElementSibling.value = this.value">
+            <output></output>
         </div>
         <div class="birth-date">    <!-- birthDate -->
             <label for="birth-date">Birth Date:</label>

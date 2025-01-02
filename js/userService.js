@@ -43,8 +43,6 @@ function loadUserSettings() {
     elSettings.email.value = user.email
     elSettings.txtColor.value = user.txtColor
     elSettings.bgColor.value = user.bgColor
-    console.log(user.age);
-    console.log(elSettings.age)   
     
     elSettings.age.value = user.age
     elSettings.birthDate.value = user.birthDate
